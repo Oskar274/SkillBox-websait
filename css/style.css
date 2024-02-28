@@ -1,0 +1,305 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #3F2AFF;
+}
+.header__container{
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 31px;
+    max-width: 1110px;
+}
+.header__ul{
+    gap: 0px;
+}
+.header__link{
+    padding-left: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.header__link:first-child{
+    padding-left: 0;
+}
+
+.header__link{
+    color: #FFFFFF;
+}
+
+
+
+.courses__3D{
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+    padding-top: 15px;
+    padding-bottom: 12px;
+    min-height: 620px;
+}
+
+.courses{
+    min-height: 539px;
+    align-items: center;
+}
+
+.course__text{
+    margin-top: 115px;
+}
+
+.course__title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.course__subtitle{
+    padding-top: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.coutse__btn{
+    margin-top: 62px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    padding: 24px 75.5px;
+    background: #3F2AFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.course__logo{
+    height: 100%;
+    max-width: 100%;
+}
+
+.course__logo-second{
+    display: none;
+}
+
+.benefits__wrapper{
+    max-height: 693px;
+    min-height: 456px;
+}
+
+.education{
+    padding-top: 80px;
+}
+
+.education__pic{
+    padding-top: 22px;
+}
+
+.education__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #2E2B44;
+    margin-bottom: 16px;
+    max-width: 380px;
+}
+
+.education__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    max-width: 585px;
+}
+
+.education__content{
+    padding: 0;
+    gap: 30px;
+    align-items: center;
+}
+
+.education__text{
+    padding-top: 23px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #666666;
+    max-width: 243px;
+}
+
+.education__logo{
+    margin-left: 15px;
+}
+
+.logs{
+    margin-top: 22px;
+    width: 220px;
+}
+
+.teachers{
+    min-height: 576px;
+    background: #212133;
+}
+
+.teachers__title{
+    padding-top: 72px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.teacher{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.teacher__logo{
+    border-radius: 24px 24px 0px 0px;
+    width: 100%;
+    max-height: 180px;
+}
+
+.teacher__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+
+.teacher__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #85859B;
+    margin-bottom: 22px;
+}
+
+.courses__intro{
+    padding-bottom: 50px;
+}
+
+.courses__title{
+    padding-top: 74px;
+    margin-bottom: 23px;
+    color: #212133;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.courses__logo{
+    border-radius: 20px 20px 0px 0px;
+    height: 180px;
+    object-fit: cover;
+}
+.courses__content{
+    background: #EDF0F9;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    max-width: 539px;   
+}
+
+.content__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212133;
+    margin-bottom: 8px;
+}
+
+.content__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.content__btn{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background: #3F2AFF;
+    border-radius: 20px;
+    padding: 20.5px 57px;
+    margin-top: 50px;
+}
+
+
+.social{
+    height: 80px;
+    background: #2E2B44;
+}
+
+.footer__wrapper{
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 30px;
+}
+
+.outro{
+    margin-top: 3px;
+    justify-content: center;
+}
+
+/* Burger menu start */
+.header__burger{
+    display: none;
+}
+
+.header__nav-close{
+    display: none;
+}
+/* Burger menu end */
+
